@@ -1,361 +1,173 @@
-## Raman Lab · AI Workshop 2026
+# Raman Lab AI Workshop 2026
 
-<div align="center">
+**Computational Systems Biology Lab, IIT Madras**
+**April 2026**
 
-**Computational Systems Biology, IIT Madras**  
-*April 20, 2026*
+I contributed as a **presenter** to an AI workshop conducted by the Computational Systems Biology Lab at IIT Madras.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/badge/GitHub-RamanLab-blue)](https://github.com/RamanLab/AI-Workshop-2026)
-
-</div>
+The workshop explored modern artificial intelligence methods relevant to **computational biology, scientific research, data analysis, and research automation**, combining technical concepts with examples of how AI technologies can be incorporated into real research workflows.
 
 ---
 
-#### Overview
+## Workshop Scope
 
-A comprehensive full-day workshop surveying artificial intelligence methods relevant to computational biology research and data science. The workshop covers cutting-edge topics including prompt engineering, retrieval-augmented generation, agentic systems, multiomics data integration, representation learning, reinforcement learning, and biological foundation models. 
+The workshop covered a broad range of topics across modern AI and scientific computing.
 
-Each session combines theoretical frameworks with practical insights from lab members actively applying these technologies in their research.
+### Prompt Engineering and Retrieval-Augmented Generation
 
----
+* In-context learning and structured prompting
+* Retrieval-Augmented Generation (RAG)
+* Multi-step retrieval
+* Graph-based retrieval approaches
+* Retrieval strategies for scientific information
 
-#### Workshop Sessions
+### AI-Assisted Development
 
-###### 1. Prompt Engineering & Retrieval-Augmented Generation
-**Presenter:** Pratyay Mishra  
-**[View Presentation](./Docs/AlforScientificResearch.pdf)**
+* AI-supported software development
+* GitHub Copilot
+* AI-native development environments
+* Rapid prototyping and workflow automation
 
-**Key Topics:**
-- **In-context Learning** - Shaping model behavior through prompt structure without parameter updates
-- **Reasoning Frameworks** - Chain-of-Thought, Tree-of-Thought, Graph-of-Thought and their applicable contexts
-- **Hyperparameter Tuning** - Effects of temperature, top-p, and token limits on output distributions
-- **RAG Architecture** - Retrieval pipeline over external corpora as an alternative to parametric memory
-- **Advanced Retrieval Methods** - Graph-Based RAG, Agentic RAG, Fusion-in-Decoder (FiD)
+### AI for Multiomics and Biological Data
 
----
+* Attention mechanisms
+* Graph Neural Networks
+* Diffusion models
+* Multimodal biological data integration
+* Representation learning for biological systems
 
-###### 2. Vibe Coding & AI-Assisted Development
-**Presenter:** Kushi Singh  
-**[View Presentation](./Docs/Vibe%20coding%20final.pdf)**
+### Agentic AI
 
-**Key Topics:**
-- **[GitHub Copilot](https://github.com/features/copilot)** - Inline code completion and review within IDE
-- **[Cursor](https://cursor.sh/)** - AI-native editor for prompt-driven iterative development
-- **Whisper Flow** - Voice-to-code dictation workflow
-- **Antigravity** - Low-friction scripting and task automation
-- **AI-Powered Development Tools** - Tools for experiment simulation and multi-model output comparison
+* Tool-using AI systems
+* Planning and execution
+* Memory and state management
+* ReAct-style architectures
+* Multi-agent systems
+* AI-assisted scientific workflows
 
----
+### Model Context Protocol
 
-###### 3. AI in Multiomics & Data Integration
-**Presenter:** Yuvaram Singh  
-**[View Presentation]([./Docs/AI%20in%20multiomics%2C%20data%20integration.pdf](https://github.com/RamanLab/AI-Workshop-2026/blob/main/Docs/AI%20in%20multiomics%2C%20data%20integration.pdf))**
+* Standardized AI-to-tool communication
+* MCP Host, Client, and Server architecture
+* External tools and data-source integration
+* GitHub MCP
+* Browser automation using Playwright MCP
+* Agent-to-Agent communication
 
-**Key Topics:**
-- **Attention Mechanisms** - Context-aware representation learning across modalities
-- **Diffusion Models** - Generative applications in single-cell and spatial omics
-- **Graph Neural Networks** - Modeling molecular interactions and biological network topology
-- **Multi-modal Integration** - Handling missing data, batch effects, and heterogeneous assay types
+### Knowledge Graphs and Digital Twins
 
----
+* Biological knowledge graphs
+* Digital twin modelling
+* Virtual cells
+* Precision medicine
+* Knowledge-assisted AI systems
 
-###### 4. Agentic AI
-**[View Presentation](./Docs/Agentic%20AI.pdf)**
+### Representation Learning and Reinforcement Learning
 
-**Key Topics:**
-- **LLMs vs. Reasoning Models** - Inference-time computation and chain-of-thought scaling
-- **Tool Use** - Function calling as the primary mechanism for environment interaction
-- **Memory & State Management** - Short-term context, external memory stores, long-horizon task handling
-- **Agent Architectures** - ReAct, Plan-and-Execute, multi-agent systems; trade-offs by task class
-- **AI Scientist** - Current capabilities and open research gaps
+* Embeddings and learned representations
+* Self-supervised learning
+* Q-learning
+* Deep Reinforcement Learning
+* PPO and Actor-Critic methods
+* Applications in biological systems
 
----
+### Biological Foundation Models
 
-###### 5. Model Context Protocol (MCP) Tools
-**Presenter:** Harippriya Sivakumar  
-**[View Presentation](./Docs/MCP%20Bioinformatics.pdf)**
+* DNA and protein language models
+* Evo
+* ESM
+* scGPT
+* AlphaFold
+* Foundation models for biological data
 
-**Key Topics:**
-- **[Model Context Protocol](https://modelcontextprotocol.io/)** - Standardized interface connecting LLM agents to external tools and data sources
-- **[GitHub MCP Server](https://github.com/modelcontextprotocol/servers)** - Repository-aware agent interactions
-- **[Playwright MCP](https://playwright.dev/)** - Browser automation in agentic pipelines
-- **Agent-to-Agent (A2A)** - Communication patterns for multi-step workflows
+### Explainable and Responsible AI
 
----
+* Model limitations
+* Bias and misinformation
+* Hallucination
+* Interpretability
+* Explainable AI
+* Human validation of AI-generated results
 
-###### 6. Knowledge Graphs & Digital Twins
-**Presenter:** Somil Shah  
-**[View Presentation]([./Docs/digital_twins_presentation.pdf](https://docs.google.com/presentation/d/1FlFr7aTgRFzZS4kJzABYzp4p0_UQ1QeX/edit?slide=id.p1#slide=id.p1))**
+### AI for Scientific Discovery
 
-**Key Topics:**
-- **Knowledge Graphs** - Construction and querying for structured biological relationships
-- **Digital Twin Modeling** - Virtual representations of biological systems
-- **Integration Patterns** - Connecting knowledge graphs with generative models
-- **Precision Medicine Applications** - Hypothesis generation and KG-based RAG
-
----
-
-###### 7. Representation Learning & Reinforcement Learning
-**Presenter:** Nandhakishore  
-**[View Presentation](./Docs/Representation%20%26%20Reinforcement%20Learning_.pdf)**
-
-######## Representation Learning
-- **Unsupervised Learning Framework** - Task-agnostic feature extraction
-- **Methods** - Autoencoders, contrastive learning, self-supervised objectives
-- **Embeddings** - Compressed vector representations of biological entities (genes, proteins, cells)
-
-######## Reinforcement Learning
-- **Value Function Methods** - Q-learning, DQN
-- **Policy-Based Methods** - REINFORCE, PPO
-- **Hybrid Approaches** - Actor-Critic architectures
-- **Biological Applications** - Metabolic networks, pathway optimization, drug discovery
+* Problem decomposition
+* Representation changes
+* Iterative AI-assisted reasoning
+* Structured experimentation
+* Human-in-the-loop validation
 
 ---
 
-###### 8. Foundation Models & AlphaFold
-**Presenter:** Srikrishnan  
-**[View Presentation](./Docs/Foundation%20models%20in%20biology.pdf)**
+## My Contribution
 
-**Key Topics:**
-- **DNA & Protein Language Models** - [Evo](https://github.com/evo-design/evo), [ESM](https://github.com/facebookresearch/esm), [scGPT](https://github.com/bowang-lab/scGPT), AlphaGenome, BioReason, BiomeGPT, LLM-GEM
-- **Chemical & Molecular Foundation Models** - Small-molecule representation and generation
-- **[AlphaFold](https://alphafold.ebi.ac.uk/)** - Structural prediction capabilities and limitations for dynamic systems
+### Model Context Protocol Tools and Architecture
 
----
+I presented a session on **Model Context Protocol (MCP)** and its role in connecting AI systems with external tools, APIs, databases, and computational resources.
 
-###### 9. Bottlenecks in AI & Explainable AI
-**Presenter:** Dipak  
-**[View Presentation](./Docs/Bottlenecks%20in%20AI.pdf)**
+The session focused on:
 
-**Key Topics:**
-- **Scalability Challenges** - Context comprehension limits at scale
-- **Data Dependencies** - Quality and distribution requirements
-- **Interpretability Gaps** - Explainability in complex models
-- **Bias & Misinformation** - Training bias and misinformation propagation
-- **Ethical Constraints** - Deployment considerations in biological research
+* MCP Host–Client–Server architecture
+* Standardized tool integration
+* Tool-enabled AI systems
+* GitHub MCP integrations
+* Browser interaction using Playwright MCP
+* Agent-to-Agent communication
+* Applications of MCP in computational and scientific research workflows
+
+The session also discussed how standardized AI-tool communication can reduce repeated custom integrations and make research workflows more **interoperable, reusable, and easier to automate**.
 
 ---
 
-###### 10. Solving Hard Scientific Problems Using AI
-**Presenter:** Hari Priya Narahari  
-**[View Presentation]([./Docs/KG_Precision_Medicine.pdf](https://docs.google.com/presentation/d/10it0aSjqcCljq9uOlagW0r7AYTfkcB3f/edit?slide=id.p1#slide=id.p1))**
+## Public Resources
 
-**Key Topics:**
-- **Problem-AI Mapping** - Aligning AI capabilities with specific scientific bottlenecks
-- **Leverage Analysis** - Problem classes where AI provides genuine advantage
-- **Limitations** - Identifying where AI remains inadequate
-- **Knowledge Graphs in Precision Medicine** - Practical applications and case studies
+The complete workshop documentation and internal materials are maintained within the Raman Lab.
 
----
+The following publicly available resources provide further information on technologies discussed during the workshop.
 
-#### AI Utilization: Lab Member Survey
+### Model Context Protocol and Agentic Systems
 
-**[Complete Survey Results](./Docs/Current%20usage%20of%20AI%20and%20future%20disruption%20in%20research%20space%20(1).pdf)**
+* [Model Context Protocol](https://modelcontextprotocol.io/) — Standard for connecting AI applications with external tools and data sources.
+* [GitHub MCP Server](https://github.com/github/github-mcp-server) — MCP integration for interacting with GitHub repositories and development workflows.
+* [Playwright MCP](https://github.com/microsoft/playwright-mcp) — Browser interaction and automation for AI systems through MCP.
+* [Agent2Agent Protocol](https://github.com/a2aproject/A2A) — Open protocol supporting interoperability between AI agents.
 
-Self-reported usage patterns from lab members showcasing real-world AI integration in computational biology research.
+### Biological AI and Foundation Models
 
-###### Survey Highlights
+* [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) — Public resource for AI-predicted protein structures.
+* [Evo](https://github.com/evo-design/evo) — Biological foundation models for sequence-level and genome-scale applications.
+* [ESM](https://github.com/facebookresearch/esm) — Protein language models and pretrained protein representations.
+* [scGPT](https://github.com/bowang-lab/scGPT) — Foundation model for single-cell and multi-omics data.
 
-| Researcher | Primary Tools | Key Use Cases |
-|---|---|---|
-| **Sandhya** | GPT Codex 5.3, COBRApy | Microbial community modeling, dFBA pipeline generation, automated analysis |
-| **Srikrishnan** | ChatGPT, COBRApy | Literature gathering, code refactoring, metabolic modeling |
-| **Aarti** | NotebookLM, Perplexity, Copilot | Paper summarization, debugging, graphics generation |
-| **Prithvi** | General LLMs | Summarization, code generation, literature mining, brainstorming |
-| **Pratyay** | ChatGPT, Perplexity Pro, GitHub Copilot, NotebookLM | Debugging, literature search, paper review, plot ideation |
-| **Shivangi** | Claude, Gemini, Napkin.ai | Code review, brainstorming, ITOL annotation, figure generation |
-| **Durga** | Gemini, NotebookLM, Perplexity, Napkin AI | Coding, concept learning, paper summarization |
-| **Aryamitra** | General LLMs | Tool discovery, debugging, metabolite classification |
-| **Sabdhayini** | Perplexity, NotebookLM, Claude, ChatGPT, Claude Code | Literature review, coding, vibe coding, project tracking |
+### AI Development and Research Tools
 
-###### Common Use Cases
-
-| Category | Tools |
-|---|---|
-| **Code Generation & Debugging** | ChatGPT, Claude, GitHub Copilot, Cursor |
-| **Literature Review** | NotebookLM, Perplexity Pro, SciSpace |
-| **Visualization** | Napkin AI, Copilot |
-| **Rapid Prototyping** | Lovable, Bolt, Replit, Claude Code |
-| **Metabolic Modeling** | COBRApy, MICOM, COMETS |
+* [GitHub Copilot](https://github.com/features/copilot) — AI-assisted software development and code generation.
+* [COBRApy](https://opencobra.github.io/cobrapy/) — Python framework for constraint-based modelling of biological systems.
+* [Interactive Tree of Life](https://itol.embl.de/) — Web-based platform for visualization and annotation of phylogenetic trees.
 
 ---
 
-#### Complete Technology Stack
+## Key Takeaways
 
-###### LLM Platforms & Assistants
+The workshop highlighted several important directions in the use of AI for scientific research:
 
-######## General Purpose AI
-- **[ChatGPT](https://chat.openai.com/)** - OpenAI's conversational AI (GPT-4o, Codex 5.3)
-- **[Claude](https://claude.ai/)** - Anthropic's AI for complex reasoning
-- **[Gemini](https://gemini.google.com/)** - Google's multimodal AI
-- **[Perplexity Pro](https://www.perplexity.ai/)** - AI-powered research assistant
-
-######## Code Assistants
-- **[GitHub Copilot](https://github.com/features/copilot)** - AI pair programmer
-- **[Cursor](https://cursor.sh/)** - AI-native code editor
-- **[Claude Code](https://www.anthropic.com/claude/code)** - Anthropic's coding assistant
-- **[Replit](https://replit.com/)** - Collaborative IDE with AI
-- **[Bolt](https://bolt.new/)** - AI full-stack development
-- **[Lovable](https://lovable.dev/)** - AI application builder
-
-######## Research Tools
-- **[NotebookLM](https://notebooklm.google/)** - Google's research assistant
-- **[SciSpace](https://scispace.com/)** - Scientific literature comprehension
-- **[Feynman AI](https://www.feynman.ai/)** - Scientific explanations
-
-######## Visualization
-- **[Napkin AI](https://www.napkin.ai/)** - Visual storytelling
-- **[Revid AI](https://revid.ai/)** - Video creation
-
-######## Specialized
-- **[Whisper](https://openai.com/research/whisper)** - Speech-to-text
-- **Antigravity** - Task automation
-- **SaralAI** - AI assistance
-- **COMET** - ML experiment tracking
+* AI systems are evolving from standalone prediction models toward **tool-connected systems capable of retrieving information, executing operations, and interacting with external resources**.
+* Retrieval systems, external tools, and structured data can improve the reliability and practical usefulness of AI systems.
+* Foundation models are increasingly being adapted to specialized scientific domains including genomics, proteins, single-cell biology, and molecular modelling.
+* Agentic architectures can support multi-stage workflows involving retrieval, analysis, computation, and verification.
+* Standardized protocols such as MCP can reduce the engineering effort required to connect AI systems with heterogeneous tools and data sources.
+* AI can accelerate repetitive and computationally intensive parts of scientific workflows, while **hypothesis formation, validation, interpretation, and scientific responsibility remain with the researcher**.
 
 ---
 
-###### Bioinformatics & Computational Biology
+## Repository Note
 
-######## Metabolic Modeling
-- **[COBRApy](https://opencobra.github.io/cobrapy/)** - Constraint-based reconstruction and analysis
-- **[MICOM](https://github.com/micom-dev/micom)** - Microbial community modeling
-- **[COMETS](https://www.runcomets.org/)** - Spatiotemporal ecosystem modeling
-- **dFBA** - Dynamic flux balance analysis
+This repository provides a **public overview of the workshop and my contribution**.
 
-######## Visualization
-- **[ITOL](https://itol.embl.de/)** - Interactive Tree of Life
-
-######## Foundation Models
-- **[Evo](https://github.com/evo-design/evo)** - DNA language model
-- **[ESM](https://github.com/facebookresearch/esm)** - Protein language models (Meta AI)
-- **[scGPT](https://github.com/bowang-lab/scGPT)** - Single-cell foundation model
-- **[AlphaFold](https://alphafold.ebi.ac.uk/)** - Protein structure prediction (DeepMind)
-- **AlphaGenome** - Genomic foundation model
-- **BioReason** - Biological reasoning
-- **BiomeGPT** - Microbiome language model
-- **LLM-GEM** - Genome-scale metabolic models
+The complete workshop materials, internal documentation, speaker notes, discussions, and lab-specific resources are maintained privately by the **Computational Systems Biology Lab, IIT Madras**.
 
 ---
 
-###### AI/ML Frameworks
-
-######## Neural Architectures
-- **Transformer** - Attention-based architecture
-- **Diffusion Models** - Generative modeling
-- **Graph Neural Networks (GNN)** - Network topology modeling
-
-######## RAG Systems
-- **Graph-Based RAG** - Knowledge graph integration
-- **Agentic RAG** - Multi-step reasoning
-- **Fusion-in-Decoder (FiD)** - Multi-document retrieval
-
-######## Agent Frameworks
-- **ReAct** - Reasoning and Acting
-- **Plan-and-Execute** - Planning-based agents
-- **Multi-Agent Systems** - Collaborative frameworks
-
-######## Reinforcement Learning
-- **Q-learning** - Value-based RL
-- **DQN** - Deep Q-Network
-- **REINFORCE** - Policy gradient
-- **PPO** - Proximal Policy Optimization
-- **Actor-Critic** - Hybrid methods
-
----
-
-###### Integration & Protocol
-
-######## Model Context Protocol
-- **[MCP](https://modelcontextprotocol.io/)** - Standardized LLM-tool interface
-- **[GitHub MCP Server](https://github.com/modelcontextprotocol/servers)** - Repository integration
-- **[Playwright MCP](https://playwright.dev/)** - Browser automation
-
-
----
-
-## Closing Remarks
-
-**Prof. Karthik Raman**
-
-We concluded our workshop by discussing the rapid pace of change in AI and what it means for our work as researchers. The message was clear: while AI will change, that's not what we need to monitor. Instead, the true variable that we must monitor is **usage**. Use it to accelerate learning—understand something in the afternoon that previously took a week, or fix a bug in minutes rather than hours. This is leverage. 
-
-At all times it must never replace thinking. This refers to the hypothesis, logic, and interpretation of results, which have to be yours. Take responsibility for your questions and true learning can begin. The real expert will be the expert who is grounded in principles; those who have the mental endurance for understanding first principles of something (the structure of a metabolic network or logic of system) are true leaders and they use it to support and accelerate their own work, not replace their understanding and reasoning.
-
-**Use AI to stand taller, but make sure you have the foundational strength to stand on your own.**
-
-**Use AI to learn faster. Keep thinking on your own.**
-
----
-
-## Citation
-
-If you use materials from this workshop, please cite:
-
-```bibtex
-@workshop{RamanLabAI2026,
-  title        = {Raman Lab AI Workshop 2026: Materials and Documentation},
-  author       = {{Computational Systems Biology, IIT Madras}},
-  year         = {2026},
-  month        = {April},
-  day          = {20},
-  institution  = {Indian Institute of Technology Madras},
-  address      = {Chennai, Tamil Nadu, India},
-  url          = {https://github.com/RamanLab/AI-Workshop-2026}
-}
-```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License** - Free to share, modify, and use for educational and research purposes.
-
----
-
-## Contributors
-
-Workshop organized and presented by members of the **Raman Lab** at IIT Madras:
-
-- Pratyay Mishra
-- Kushi Singh
-- Yuvaram Singh
-- Harippriya Sivakumar
-- Somil Shah
-- Nandhakishore
-- Srikrishnan
-- Dipak
-- Hari Priya Narahari
-
----
-
-## Contact
-
-**Raman Lab**  
-Department of Biotechnology  
-Bhupat & Jyoti Mehta School of Biosciences  
-Indian Institute of Technology Madras  
-Chennai 600036, Tamil Nadu, India
-
-- **Website:** [ramanlab.github.io](https://ramanlab.github.io/)
-- **Email:** kraman@iitm.ac.in
-- **GitHub:** [@RamanLab](https://github.com/RamanLab)
-
----
-
-## Acknowledgments
-
-Special thanks to all lab members who contributed their expertise and insights to make this workshop comprehensive and practical.
-
----
-
-<div align="center">
-
-**Raman Lab · IIT Madras · 2026**
-
-*Advancing Computational Biology through AI*
-
-</div>
+**Computational Systems Biology Lab**
+**Indian Institute of Technology Madras**
+**2026**
